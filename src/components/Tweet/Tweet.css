@@ -1,0 +1,32 @@
+.tweet-container {
+  background-color: #343a40;
+  border-radius: 6px;
+  width: 600px;
+  padding: 20px;
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.tweet-name-date {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.tweet-content {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: flex-start;
+  margin-top: 16px;
+  font-size: 14px;
+}
