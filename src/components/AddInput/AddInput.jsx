@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from '../Button/Button';
 import './AddInput.css';
+import Button from '../Button/Button';
 
 const AddInput = ({ handleTweetAdd }) => {
   const [inputData, setInputData] = useState('');

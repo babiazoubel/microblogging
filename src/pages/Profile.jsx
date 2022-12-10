@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Button from '../../components/Button/Button';
-import NavBar from '../../components/NavBar/NavBar';
+import Button from '../components/Button/Button';
+import NavBar from '../components/NavBar/NavBar';
 import './Profile.css';
 
 const Profile = () => {
@@ -19,6 +19,7 @@ const Profile = () => {
 
   const handleTweetAdd = (userName) => {
     setUserName(userName);
+    
   };
 
   useEffect(() => {
