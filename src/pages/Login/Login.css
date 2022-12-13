@@ -62,3 +62,18 @@
   color: white;
   margin-bottom: 0;
 }
+
+.error {
+  color: #721c24;
+  background-color: #f5c6cb;
+  border-radius: 4px;
+  height: 29px;
+  width:400px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 190px;
+}
